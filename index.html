@@ -69,10 +69,8 @@
                     btn.style.background = '#10b981'; // Success green
                     btn.innerHTML = 'Success!';
                     setTimeout(() => {
-                        btn.style.background = '';
-                        btn.innerHTML = originalText;
-                        document.getElementById('loginForm').reset();
-                    }, 2000);
+                        window.location.href = 'students.html';
+                    }, 1000);
                 }
             }, 1500);
         });

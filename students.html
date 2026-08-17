@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records - Premium Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Reusing the dynamic container background from the login page -->
+        
+        <div class="table-container">
+            <div class="table-header">
+                <h2>Student Database</h2>
+                <a href="index.html" class="submit-btn" style="width: auto; padding: 10px 20px; text-decoration: none; display: inline-block;">Logout</a>
+            </div>
+            
+            <div style="overflow-x: auto;">
+                <table class="student-table">
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Name</th>
+                            <th>Course</th>
+                            <th>Faculty</th>
+                            <th>Department</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#STU-1001</td>
+                            <td>Alice Johnson</td>
+                            <td>B.Sc Computer Science</td>
+                            <td>Dr. Alan Turing</td>
+                            <td><span class="badge badge-cs">Computer Science</span></td>
+                        </tr>
+                        <tr>
+                            <td>#STU-1002</td>
+                            <td>Michael Smith</td>
+                            <td>B.Eng Electrical</td>
+                            <td>Prof. Nikola Tesla</td>
+                            <td><span class="badge badge-ee">Electrical Eng.</span></td>
+                        </tr>
+                        <tr>
+                            <td>#STU-1003</td>
+                            <td>Emma Williams</td>
+                            <td>B.Eng Mechanical</td>
+                            <td>Dr. Isaac Newton</td>
+                            <td><span class="badge badge-me">Mechanical Eng.</span></td>
+                        </tr>
+                        <tr>
+                            <td>#STU-1004</td>
+                            <td>David Brown</td>
+                            <td>M.Sc Data Science</td>
+                            <td>Dr. Alan Turing</td>
+                            <td><span class="badge badge-cs">Computer Science</span></td>
+                        </tr>
+                        <tr>
+                            <td>#STU-1005</td>
+                            <td>Sophia Martinez</td>
+                            <td>B.Sc Software Eng.</td>
+                            <td>Prof. Ada Lovelace</td>
+                            <td><span class="badge badge-cs">Computer Science</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Decorative blobs -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+</body>
+</html>
